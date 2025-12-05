@@ -1,0 +1,80 @@
+/* ====================================
+   Dark Mode for Google Translate™ v2.0.0
+   Author: charafdotdev
+   Perfect #242424 theme – 2025-proof
+   ==================================== */
+
+/* Base colors */
+html, body, #viewport, :root { background: #242424 !important; color: #e0e0e0 !important; }
+
+/* Reset backgrounds & borders */
+*, *::before, *::after {
+  background: transparent !important;
+  border-color: #2d2d2d !important;
+}
+
+/* Main input/output panels */
+.kHn9Lb, .ryNqvb, .QcsUad > div,
+.tlid-input-body, .tlid-results-panel {
+  background: #2c2c2c !important;
+  border-radius: 16px !important;
+  box-shadow: none !important;
+}
+
+/* Text inputs */
+input, textarea { background: transparent !important; color: #ffffff !important; }
+
+/* Voice / listen / speaker icons – visible blue */
+button[aria-label*="voice"] path,
+button[aria-label*="microphone"] path,
+button[aria-label*="listen"] path,
+button[aria-label*="speaker"] path,
+button path { fill: #8ab4f8 !important; }
+
+/* All other icons */
+svg, img, .gb_Ia svg { filter: brightness(0) invert(1) !important; }
+
+/* Top glass bar */
+.gb_Ka, .gb_La, .h1wYeb {
+  background: rgba(36,36,36,0.9) !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+/* Buttons – your signature hover lift */
+button, [role="button"] {
+  transition: all 0.25s ease !important;
+  border-radius: 20px !important;
+}
+button:hover, [role="button"]:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.7) !important;
+}
+
+/* Scrollbars */
+* { scrollbar-color: #777 #2c2c2c !important; }
+
+/* Links */
+a { color: #8ab4f8 !important; }
+
+/* Bottom tabs text (History / Saved) */
+.TcXXXb { color: rgba(255,255,255,0.54) !important; }
+
+/* Selected language & top tabs – lighter blue */
+.NneTPd, .HlQq0c, [aria-selected="true"], [aria-selected="true"] span,
+.VfPpkd-StrnGf-rymPhb-ibnC6b, .VfPpkd-StrnGf-rymPhb-ibnC6b span,
+.goog-tab-selected, .goog-tab-selected span,
+.VfPpkd-StrnGf-rymPhb-pZXsl::after {
+  color: #a5c8ff !important;
+}
+.VfPpkd-StrnGf-rymPhb-pZXsl::after { background-color: #a5c8ff !important; }
+
+/* Language dropdown – pure white text */
+.aK9PGd, .aK9PGd span, .Llmc2c *, [role="option"] *, [role="listbox"] * {
+  color: #ffffff !important;
+}
+
+/* Translated result text */
+.lRu31, .lRu31 * { color: #ffffff !important; }
+
+/* Cleanup */
+.goog-te-banner-frame, .skiptranslate { display: none !important; }
