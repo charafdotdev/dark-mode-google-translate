@@ -21,4 +21,4 @@ Perfect #242424 dark theme – zero white flash, pro hover lift, fully 2025-proo
 - Clean, readable language dropdowns
 - Open-source & contributor-friendly
 
-Made with ❤️ by [charafdotdev](https://charaf.dev)
+Made with ❤️ by [Charaf Dev](https://charaf.dev)
