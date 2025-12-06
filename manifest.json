@@ -10,16 +10,25 @@
     "96": "icons/icon-96.png",
     "128": "icons/icon-128.png"
   },
-  "content_scripts": [{
-    "matches": ["*://translate.google.com/*", "*://translate.googleusercontent.com/*"],
-    "css": ["preload.css", "dark-mode.css"],
-    "js": ["dark-mode.js"],
-    "run_at": "document_start"
-  }],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://translate.google.com/*",
+        "*://translate.googleusercontent.com/*"
+      ],
+      "css": ["preload.css", "dark-mode.css"],
+      "js": ["dark-mode.js"],
+      "run_at": "document_start"
+    }
+  ],
+
   "browser_specific_settings": {
     "gecko": {
-      "id": "dark-mode-google-translate@charafdev",
-      "strict_min_version": "109.0"
+      "id": "charafdotdev@gmail.com",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
